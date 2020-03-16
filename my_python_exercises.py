@@ -76,8 +76,8 @@ for i in range(questions_file_title_offset, len(questions)):
     source: str = tempate.substitute(data)
     source_lines: List[str] = source.split('\n')
     source_lines = [x for x in source_lines if len(x) > 0]
-    source_lines = map(lambda a: a if str(a).startswith('#') else '# ' + a, source_lines)
-    source = reduce(lambda a, b: a + '\n' + b, source_lines)
+    source_lines = map(lambda a: a if str(a).startswith('#') else f'# {a}', source_lines)
+    source = reduce(lambda a, b: f'{a}\n{b}', source_lines)
 
     source_file_name: str = f'question_{i-1}.py'
     with open(os.path.join(dist_dir_name, source_file_name), 'w') as f:

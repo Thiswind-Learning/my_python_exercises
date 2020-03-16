@@ -1,0 +1,3 @@
+[submodule "Python-programming-exercises"]
+	path = Python-programming-exercises
+	url = https://github.com/zhiwehu/Python-programming-exercises.git

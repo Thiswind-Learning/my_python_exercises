@@ -6,6 +6,7 @@ from pathlib import Path
 from string import Template
 from typing import Dict, List
 
+
 width_chars = 64
 template_str: str = \
     f'''
@@ -34,7 +35,6 @@ dist_dir_name: str = 'my_exercises'
 Path(dist_dir_name).mkdir(parents=True, exist_ok=True)
 shutil.rmtree(dist_dir_name)
 Path(dist_dir_name).mkdir(parents=True, exist_ok=True)
-
 
 buffer: str = None
 with open(questions_file_name, 'r') as f:

@@ -7,7 +7,7 @@ from string import Template
 from typing import Dict, List
 
 
-width_chars = 64
+width_chars: int = 64
 template_str: str = \
     f'''
 #!/usr/bin/env python
@@ -36,18 +36,18 @@ Path(dist_dir_name).mkdir(parents=True, exist_ok=True)
 shutil.rmtree(dist_dir_name)
 Path(dist_dir_name).mkdir(parents=True, exist_ok=True)
 
-buffer: str = None
+buffer: str = ''
 with open(questions_file_name, 'r') as f:
     buffer = f.read()
 
-questions: List = re.split(r'#[-]+#', buffer)
+questions: List[str] = re.split(r'#[-]+#', buffer)
 questions = [str(x).strip() for x in questions if len(str(x).strip()) > 0]
 
 for i in range(questions_file_title_offset, len(questions)):
     one: str = questions[i]
     lines: List[str] = [x for x in one.split('\n') if len(str(x).strip()) > 0]
 
-    data: Dict = {
+    data: Dict[str, str] = {
         'title': '',
         'level': '',
         'question': '',
@@ -55,7 +55,7 @@ for i in range(questions_file_title_offset, len(questions)):
         'solution': ''
     }
 
-    key = ''
+    key: str = ''
     for line in lines:
         if line.startswith('Question '):
             key = 'title'
@@ -74,10 +74,10 @@ for i in range(questions_file_title_offset, len(questions)):
         data[key] += f'{line}\n'
 
     source: str = tempate.substitute(data)
-    lines: List = source.split('\n')
-    lines = [x for x in lines if len(x) > 0]
-    lines = map(lambda a: a if str(a).startswith('#') else '# ' + a, lines)
-    source = reduce(lambda a, b: a + '\n' + b, lines)
+    source_lines: List[str] = source.split('\n')
+    source_lines = [x for x in source_lines if len(x) > 0]
+    source_lines = map(lambda a: a if str(a).startswith('#') else '# ' + a, source_lines)
+    source = reduce(lambda a, b: a + '\n' + b, source_lines)
 
     source_file_name: str = f'question_{i-1}.py'
     with open(os.path.join(dist_dir_name, source_file_name), 'w') as f:

@@ -6,7 +6,17 @@
 为了方便刷里面的练习题，本项目编写了这个刷题程序。
 本项目读取zhiwehu/Python-programming-exercises当中的练习题，为每一道题创建一个独立的Python文件并且把题目内容写到注释当中，方便刷题。
 
-## Usage
+
+## Usage（Gitpod在线编辑）
+
+点击此按钮 --> [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Thiswind-Learning/my_python_exercises) 
+
+根据提示注册Gitpod即可。
+
+![Screen Shot](screenshot.png)
+
+
+## Usage（克隆到本地）
 
 ### 克隆本项目
 
@@ -37,3 +47,4 @@ ls -l
 #### 对答案
 
 请查看：[参考答案](https://github.com/zhiwehu/Python-programming-exercises/blob/master/python%20contents.txt)
+

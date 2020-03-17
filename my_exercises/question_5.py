@@ -18,3 +18,19 @@
 # Use __init__ method to construct some parameters
 #
 ################################################################
+
+class Foo(object):
+
+    def __init__(self):
+        self.string: str = ''
+    
+    def getString(self):
+        self.string = input('input string: ')
+    
+    def printString(self):
+        print(self.string.upper())
+
+if __name__ == '__main__':
+    foo: Foo = Foo()
+    foo.getString()
+    foo.printString()

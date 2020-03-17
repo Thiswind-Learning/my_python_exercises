@@ -21,3 +21,13 @@
 # tuple() method can convert list to tuple
 #
 ################################################################
+
+from typing import List, Tuple
+
+input_str: str = input(' a sequence of comma-separated numbers: ')
+
+a: List = input_str.split(',')
+b: Tuple = tuple(a)
+
+print(a)
+print(b)

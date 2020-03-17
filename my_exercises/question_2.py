@@ -20,3 +20,12 @@
 # In case of input data being supplied to the question, it should be assumed to be a console input.
 #
 ################################################################
+
+from functools import reduce
+
+input_str: str = input('input an integer: ')
+
+n: int = int(input_str)
+result: int = reduce(lambda a, b: a * b, range(1, n+1))
+
+print(result)

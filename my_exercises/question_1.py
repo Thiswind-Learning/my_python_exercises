@@ -17,3 +17,10 @@
 # Consider use range(#begin, #end) method
 #
 ################################################################
+
+from typing import List
+from functools import reduce
+
+result: List[int] = [x for x in range(2000, 3201) if x % 7 == 0 and x % 5 != 0]
+output_str: str = reduce(lambda a, b: f'{a}, {b}', result)
+print(output_str)

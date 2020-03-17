@@ -20,3 +20,14 @@
 # Consider use dict()
 #
 ################################################################
+
+from functools import reduce
+from typing import Dict
+
+input_str: str = input('input an integer: ')
+
+n: int = int(input_str)
+result: Dict = {}
+for i in range(1, n+1):
+    result[i] = i * i
+print(result)

@@ -25,7 +25,7 @@ $test
 '''
 tempate: Template = Template(template_str)
 
-questions_file_name: str = 'Python-programming-exercises/100+ Python challenging programming exercises.txt'
+questions_file_name: str = 'my-100-python-challenging-programming-exercises/My-100-Python-challenging-programming-exercises.txt'
 questions_file_title_offset: int = 2
 dist_dir_name: str = 'my_exercises'
 

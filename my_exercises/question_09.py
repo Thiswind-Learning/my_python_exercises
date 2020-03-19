@@ -8,8 +8,7 @@ def solution(input):
     Question 9
      
     Level 2
-    
-    Question:
+    Question£º
     Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
     Suppose the following input is supplied to the program:
     Hello world
@@ -17,6 +16,7 @@ def solution(input):
     Then, the output should be:
     HELLO WORLD
     PRACTICE MAKES PERFECT
+    
     
 
     

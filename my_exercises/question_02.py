@@ -18,9 +18,6 @@ def solution(input):
     40320
     
 
-    Test:
-    >>> solution(8)
-    40320
     
     """
     pass

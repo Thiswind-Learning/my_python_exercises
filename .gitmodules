@@ -1,3 +1,3 @@
-[submodule "Python-programming-exercises"]
-	path = Python-programming-exercises
-	url = https://github.com/zhiwehu/Python-programming-exercises.git
+[submodule "my-100-python-challenging-programming-exercises"]
+	path = my-100-python-challenging-programming-exercises
+	url = https://github.com/Thiswind-Learning/my-100-python-challenging-programming-exercises.git

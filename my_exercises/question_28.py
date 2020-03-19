@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Define a function that can convert a integer into a string and print it in console.
-#
-# Hints:
-# Use str() to convert a number to string.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Define a function that can convert a integer into a string and print it in console.
+    
+
+    
+    """
+    pass

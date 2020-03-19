@@ -1,16 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
-#
-# Hints:
-# Use dict[key]=value pattern to put entry into a dictionary.
-# Use ** operator to get power of a number.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
+    
+
+    
+    """
+    pass

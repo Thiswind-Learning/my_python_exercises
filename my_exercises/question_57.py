@@ -1,13 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-#
-# Hints:
-# To define a custom exception, we need to define a class inherited from Exception.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    
+
+    
+    """
+    pass

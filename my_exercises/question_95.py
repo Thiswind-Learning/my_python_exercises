@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
-#
-# Hints:
-# Use Subclass(Parentclass) to define a child class.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
+    
+
+    
+    """
+    pass

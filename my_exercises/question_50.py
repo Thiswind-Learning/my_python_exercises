@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Define a class named American which has a static method called printNationality.
-#
-# Hints:
-# Use @staticmethod decorator to define class static method.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Define a class named American which has a static method called printNationality.
+    
+
+    
+    """
+    pass

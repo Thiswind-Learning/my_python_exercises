@@ -1,14 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Write a special comment to indicate a Python source code file is in unicode.
-#
-# Hints:
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Write a special comment to indicate a Python source code file is in unicode.
+    
+
+    
+    """
+    pass

@@ -1,13 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-#
-# Hints:
-# Use list comprehension to delete a bunch of element from a list.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    
+
+    
+    """
+    pass

@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Please write a program which prints all permutations of [1,2,3]
-#
-# Hints:
-# Use itertools.permutations() to get permutations of list.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Please write a program which prints all permutations of [1,2,3]
+    
+
+    
+    """
+    pass

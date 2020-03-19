@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Please write a program to shuffle and print the list [3,6,7,8].
-#
-# Hints:
-# Use shuffle() function to shuffle a list.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Please write a program to shuffle and print the list [3,6,7,8].
+    
+
+    
+    """
+    pass

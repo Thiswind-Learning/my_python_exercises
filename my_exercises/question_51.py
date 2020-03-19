@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Define a class named American and its subclass NewYorker. 
-#
-# Hints:
-# Use class Subclass(ParentClass) to define a subclass.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Define a class named American and its subclass NewYorker. 
+    
+
+    
+    """
+    pass

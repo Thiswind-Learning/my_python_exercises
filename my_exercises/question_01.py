@@ -5,12 +5,13 @@
 
 def solution(input):
     r"""
-    Question 12
+    Question 1
      
-    Level 2
+    Level 1
     
     Question:
-    Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
+    Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+    between 2000 and 3200 (both included).
     The numbers obtained should be printed in a comma-separated sequence on a single line.
     
 

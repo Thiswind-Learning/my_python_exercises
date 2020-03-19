@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-################################################################
-#
-#
-################################################################
-#
-# Question:
-# Print a unicode string "hello world".
-#
-# Hints:
-# Use u'strings' format to define unicode string.
-#
-################################################################
+
+
+
+def solution(input):
+    r"""
+     
+    
+    Question:
+    Print a unicode string "hello world".
+    
+
+    
+    """
+    pass

@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "/home/gitpod/.pyenv/shims/python3"
+    "python.pythonPath": "/home/gitpod/.pyenv/shims/python3",
+    "python.testing.pytestArgs": [
+        "my_exercises"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }

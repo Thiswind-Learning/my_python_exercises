@@ -7,24 +7,21 @@ from string import Template
 from typing import Dict, List
 
 
-width_chars: int = 64
 template_str: str = \
-    f'''
-#!/usr/bin/env python
+f'''#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-#
-{'#' * width_chars}
-#
-$title
+
+
+
+def solution(input):
+    r"""
+$title 
 $level
-#
-{'#' * width_chars}
-#
 $question
-#
-$hints
-#
-{'#' * width_chars}
+
+$test
+    """
+    pass
 '''
 tempate: Template = Template(template_str)
 
@@ -52,7 +49,8 @@ for i in range(questions_file_title_offset, len(questions)):
         'level': '',
         'question': '',
         'hints': '',
-        'solution': ''
+        'solution': '',
+        'test': ''
     }
 
     key: str = ''
@@ -67,18 +65,23 @@ for i in range(questions_file_title_offset, len(questions)):
             key = 'hints'
         elif line.startswith('Solution'):
             key = 'solution'
+        elif line.startswith('Test'):
+            key = 'test'
 
         if key == '':
             continue
 
         data[key] += f'{line}\n'
 
-    source: str = tempate.substitute(data)
-    source_lines: List[str] = source.split('\n')
-    source_lines = [x for x in source_lines if len(x) > 0]
-    source_lines = map(lambda a: a if str(a).startswith('#') else f'# {a}', source_lines)
-    source = reduce(lambda a, b: f'{a}\n{b}', source_lines)
+    for key in data:
+        lines = data[key]
+        lines = lines.split('\n')
+        lines = map(lambda a: f'    {a}' if not str(a).startswith(' ') else f'{a}', lines)
+        lines = reduce(lambda a, b: f'{a}\n{b}', lines)
+        data[key] = lines
 
-    source_file_name: str = f'question_{i-1}.py'
+    source: str = tempate.substitute(data)
+
+    source_file_name: str = f'question_{i-1:02d}.py'
     with open(os.path.join(dist_dir_name, source_file_name), 'w') as f:
         f.write(source)

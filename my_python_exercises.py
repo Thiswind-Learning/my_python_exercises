@@ -12,8 +12,7 @@ f'''#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
 
-
-def solution(input):
+def main():
     r"""
 $title 
 $level
@@ -22,10 +21,18 @@ $question
 $test
     """
     pass
+
+#### Your code below
+
+#### Your code above
+
+
+if __name__ == '__main__':
+    main()
 '''
 tempate: Template = Template(template_str)
 
-questions_file_name: str = 'my-100-python-challenging-programming-exercises/My-100-Python-challenging-programming-exercises.txt'
+questions_file_name: str = 'my-100-python-challenging-programming-exercises/My-100+ Python challenging programming exercises.txt'
 questions_file_title_offset: int = 2
 dist_dir_name: str = 'my_exercises'
 

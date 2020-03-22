@@ -2,8 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-
-def solution(input):
+def main():
     r"""
     Question 12
      
@@ -17,3 +16,11 @@ def solution(input):
     
     """
     pass
+
+#### Your code below
+
+#### Your code above
+
+
+if __name__ == '__main__':
+    main()

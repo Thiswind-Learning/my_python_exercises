@@ -2,8 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-
-def solution(input):
+def main():
     r"""
     Question 4
      
@@ -18,6 +17,20 @@ def solution(input):
     ('34', '67', '55', '33', '12', '98')
     
 
+    Test:
+    >>> input = '34,67,55,33,12,98'
+    >>> result = solution(input)
+    >>> result
+    ['34', '67', '55', '33', '12', '98']
+    ('34', '67', '55', '33', '12', '98')
     
     """
     pass
+
+#### Your code below
+
+#### Your code above
+
+
+if __name__ == '__main__':
+    main()

@@ -2,8 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-
-def solution(input):
+def main():
     r"""
     Question 2
      
@@ -18,6 +17,19 @@ def solution(input):
     40320
     
 
+    Test:
+    >>> input = 8
+    >>> result = solution(input)
+    >>> result
+    40320
     
     """
     pass
+
+#### Your code below
+
+#### Your code above
+
+
+if __name__ == '__main__':
+    main()

@@ -2,8 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-
-def solution(input):
+def main():
     r"""
     Question 3
      
@@ -17,6 +16,19 @@ def solution(input):
     {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
     
 
+    Test:
+    >>> input = 8
+    >>> result = solution(input)
+    >>> result
+    {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
     
     """
     pass
+
+#### Your code below
+
+#### Your code above
+
+
+if __name__ == '__main__':
+    main()

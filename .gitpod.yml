@@ -1,5 +1,5 @@
 tasks:
   - init: echo "Update git submodules."
-    command: git submodule update --remote --force
+    command: git submodule update --init --recursive --remote --force
 image:
   file: .gitpod.Dockerfile

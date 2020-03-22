@@ -1,5 +1,7 @@
 tasks:
   - init: echo "Update git submodules."
     command: git submodule update --init --recursive --remote --force
+    command: python3 my_python_exercises.py
+    command: pip install -U pytest --user
 image:
   file: .gitpod.Dockerfile
